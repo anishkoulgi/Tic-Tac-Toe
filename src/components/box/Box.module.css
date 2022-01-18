@@ -1,0 +1,27 @@
+.box {
+  background-color: var(--primary);
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+
+  transition: filter 650ms;
+}
+
+.box:hover:enabled {
+  transition: filter 250ms;
+  filter: brightness(120%);
+}
+
+.box:disabled {
+  cursor: not-allowed;
+  background-color: var(--dark-primary);
+}
+
+svg {
+  height: 50px;
+  width: 50px;
+}

@@ -1,0 +1,39 @@
+:root {
+  --light: #6649c4;
+  --primary: #322167;
+  --dark-primary: #27175c;
+  --red: #eb1650;
+  --yellow: #ffd031;
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  font-family: "Cabin", sans-serif;
+  background-image: linear-gradient(
+    0deg,
+    hsl(244deg 71% 15%) 0%,
+    hsl(244deg 67% 18%) 6%,
+    hsl(245deg 65% 21%) 15%,
+    hsl(246deg 63% 24%) 30%,
+    hsl(247deg 62% 27%) 52%,
+    hsl(248deg 61% 30%) 72%,
+    hsl(249deg 60% 33%) 85%,
+    hsl(249deg 59% 36%) 92%,
+    hsl(250deg 59% 39%) 97%,
+    hsl(251deg 59% 43%) 100%
+  );
+}
+
+.x-path {
+  fill: var(--red);
+}
+
+.o-path {
+  fill: var(--yellow);
+}
